@@ -45,17 +45,17 @@ int main(int argc, char *argv[]) {
 
     printf("Loaded %s. Height=%d, Width=%d\n", filename, height, width);
 
-	// Start clocking!
+    // Start clocking!
     double startTime, endTime;
-	startTime = rtclock();
+    startTime = rtclock();
 
     // TODO - Prepare and create threads
 
     // TODO - Wait for threads to finish
     
-	// End clocking!
-	endTime = rtclock();
-	printf("Time taken (thread count = %d): %.6f sec\n", num_threads, (endTime - startTime));
+    // End clocking!
+    endTime = rtclock();
+    printf("Time taken (thread count = %d): %.6f sec\n", num_threads, (endTime - startTime));
 
     // TODO - Save the file!
 
